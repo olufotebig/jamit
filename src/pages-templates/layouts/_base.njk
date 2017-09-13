@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="">
+  <title>{% block title %} JAMIT {% endblock %}</title>
+  <!-- Search Engine -->
+  <meta name="description" content="">
+  <meta name="image" content="">
+  <meta name="keywords" content="">
+
+  <!-- Schema.org for Google -->
+  <meta itemprop="name" content="">
+  <meta itemprop="description" content="">
+  <meta itemprop="image" content="">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:site" content="">
+  <meta name="twitter:creator" content="">
+  <meta name="twitter:image:src" content="">
+  <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+  <meta property="og:title" content="">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="">
+  <meta property="fb:admins" content="">
+  <meta property="og:type" content="">
+
+  <link rel="icon" type="image/png" href="/media/favicon/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="/media/favicon/favicon-16x16.png" sizes="16x16" />
+
+  <link rel="stylesheet" href="/assets/css/site.css"> 
+  {% block styles %} {% endblock %}
+</head>
+
+<body>
+  {% block content %} {% endblock %}
+  {% block footer %} {% endblock %}
+  <script src="/assets/js/vendor.js"></script>
+  <script src="/assets/js/site.js"></script>
+  <script>
+    require("app").init();
+  </script>
+  {% block scripts %}{% endblock %}
+</body>
+
+</html>

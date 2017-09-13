@@ -1,0 +1,20 @@
+{
+  "name": "jamit",
+  "version": "1.0.0",
+  "description": "Brunch is served - A JAMSTACK Story",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "brunch": "^2.10.10",
+    "copycat-brunch": "^1.1.0",
+    "jquery": "^3.2.1",
+    "nunjucks-brunch": "https://github.com/olufotebig/nunjucks-brunch-personal.git",
+    "sass-brunch": "^2.10.4"
+  }
+}
