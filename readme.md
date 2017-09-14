@@ -1,2 +1,2 @@
 # JAMIT
-Brunch is served — A JAMSTACK Storygit add
+Brunch is served — A JAMSTACK Story
